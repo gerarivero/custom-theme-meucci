@@ -25,18 +25,8 @@
 	background-color: #0e1111;
 }
 
-/* log in screen background color and image */
-/* gradient of the header color and a brighter shade */
-/* can also be a flat color or an image */
-@media only screen and (max-width: 800px) {
-  body{
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
-    background-image: url(../img/background.jpg) !important;
-  }
-}
 
-body  {
+#body-login  {
 	/* Login background image */
 	background-image: url("../img/background.png") !important;
 	background-position: center;
@@ -51,6 +41,17 @@ body  {
 	background: -ms-linear-gradient(top, #232b2b 0%,#0e1111 100%); /* IE10+ */
 	background: linear-gradient(top, #232b2b 0%,#0e1111 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232b2b', endColorstr='#0e1111',GradientType=0 ); /* IE6-9 */
+}
+
+/* log in screen background color and image */
+/* gradient of the header color and a brighter shade */
+/* can also be a flat color or an image */
+@media only screen and (max-width: 1400px) {
+#body-login  {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../img/background.jpg) !important;
+  }
 }
 
 /* primary action button, use sparingly */
