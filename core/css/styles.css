@@ -28,7 +28,15 @@
 /* log in screen background color and image */
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
-#body-login {
+@media only screen and (max-width: 800px) {
+  body{
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(../img/background.jpg) !important;
+  }
+}
+
+body  {
 	/* Login background image */
 	background-image: url("../img/background.png") !important;
 	background-position: center;
