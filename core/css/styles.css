@@ -28,7 +28,7 @@
 
 #body-login  {
 	/* Login background image */
-	background-image: url("../img/background1920.jpg") !important;
+	background-image: url("../img/scuderia-large.jpg") !important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -50,7 +50,7 @@
 #body-login  {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-    background-image: url(../img/background1366.jpg) !important;
+    background-image: url(../img/scuderia-medium.jpg) !important;
   }
 }
 
@@ -90,13 +90,13 @@ button.primary:focus,
 
 /* use logos from theme */
 #header .logo {
-	background-image: url('../img/logo.svg');
-	width: 250px;
-	height: 180px;
+	background-image: url('../img/grupo-meucci.svg');
+	#width: 400px;
+	#height: 400px;
 }
 #header .logo-icon {
-	background-image: url('../img/logo-icon.svg');
-	height: 34px;
+	background-image: url('../img/grupo-meucci.svg');
+	height: 100px;
 	line-height: initial;
 }
 #owncloud {
